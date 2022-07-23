@@ -1,0 +1,448 @@
+/*default styles*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #FFFCF4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 20px;
+}
+
+main {
+    height: 100%;
+}
+
+.button {
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    background: #F7B006;
+    opacity: .5;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: opacity .5s;
+    opacity: 1;
+}
+
+/*header*/
+header {
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.right_side nav {
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 15px;
+    color: #1E1E1E;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: background-color .5s;
+}
+
+.link:hover {
+    transition: background-color .5s;
+    background: #F7B006;
+}
+
+.language_changer {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.language_changer img {
+    width: 15px;
+    height: 15px;
+}
+
+/*banner*/
+.banner {
+    margin: 150px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-weight: 800;
+    font-size: 72px;
+    letter-spacing: -0.025em;
+    color: #1E1E1E;
+    margin-bottom: 22px;
+}
+
+.banner p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #858585;
+    max-width: 580px;
+    margin: 0 auto 50px;
+}
+
+/*about us*/
+
+.about_us {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 100px;
+}
+
+.about_us-info {
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_us-info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.about_us-info h3 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #F7B006;
+    margin-bottom: 35px;
+}
+
+.about_us-info p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #747474;
+}
+
+/*projects*/
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    font-size: 72px;
+    color: #F7B006;
+    margin-bottom: 58px;
+}
+
+.projects h2 span {
+    color: #4E4E4E;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 36px;
+    color: #F7B006;;
+    margin-bottom: 136px;
+}
+
+.total h4 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #F7B006;
+    display: flex;
+    align-items: center;
+}
+
+.total h4 span:first-child {
+    color: #1E1E1E;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.total h4 span:last-child {
+    font-size: 72px;
+}
+
+.projects_list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 584px;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.projects_list .project {
+    width: calc(50% - 20px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects_list .project img {
+    height: 115px;
+    margin-bottom: 20px;
+}
+
+.projects_list .project h4 {
+    letter-spacing: -0.035em;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+
+.team p {
+    margin-bottom: 0
+}
+
+.about_our_team {
+    margin-bottom: 185px;
+}
+
+.our_team h2 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 78.84%;
+    color: #F7B006;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.our_team h2 span {
+    color: #4E4E4E;
+}
+
+.our_team p {
+    margin: 0 auto;
+    text-align: center;
+    width: 650px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+
+}
+
+.young_and_dynamic_team {
+    margin-bottom: 185px;
+}
+
+.young_and_dynamic_team h5 {
+    color: #F7B006;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.young_and_dynamic_team p {
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    width: 800px;
+    text-align: center;
+}
+
+.closer_look h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #4E4E4E;
+    width: 782px;
+    margin: 0 auto 300px;
+}
+
+.team {
+    margin-bottom: 156px;
+}
+
+.about_team {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 58px;
+    gap: 70px;
+}
+
+.about_team img {
+    width: 256px;
+    height: 256px;
+}
+
+.about_team h4 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 124.34%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #F7B006;
+}
+
+.about_team p {
+    font-weight: 500;
+    font-size: 25px;
+    align-items: center;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.about_team_info {
+    width: 60%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.hirinh {
+    width: 870px;
+    height: 510px;
+    border-radius: 25px;
+    background-color:rgba(255, 0, 0, 0.25);
+    margin: 0 auto;
+margin-bottom:221px ;
+}
+
+.becom  {
+    margin: 0 auto;
+    width: 642px;
+}
+.develop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.becom h5 {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    color:#FF0000 ;
+    text-align: center;
+    padding-top: 52px;
+    margin-bottom:25px ;
+}
+
+.becom p {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    color:#4B4B4B ;
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+.develop h3 {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #D10000;
+    margin-bottom: 20px;
+}
+
+.develop h4 {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color:#4B4B4B ;
+    margin-bottom: 15px;
+}
+
+.applybutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apply button {
+    width: 183px;
+    height: 52px;
+    background-color: #FFFCF4;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.contact_us h2 {
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    color:#F7B006 ;
+    margin-bottom:34px ;
+}
+
+.contact_us h2 span {
+    color:#4E4E4E ;
+}
+
+.about_you {
+    margin: 0 auto;
+    width: 886px;
+    height: 488px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.name_e-mail {
+    width: 410px;
+    height: 76px;
+    border-radius: 13.5px;
+    border: 1px solid #ccc;
+    background-color:#FFFFFF;
+    padding: 20px 0px 0px 18px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #6B6B6B;
+
+}
+
+.message {
+    width: 858px;
+    height: 272px;
+    background-color:#FFFFFF ;
+    border: 1px solid #ccc;
+    border-radius: 13.5px;
+    padding: 20px 0px 0px 18px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #6B6B6B;
+
+}
+
+/*footer*/
+footer {
+    height: 100px;
+}
