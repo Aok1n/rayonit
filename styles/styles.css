@@ -328,35 +328,37 @@ header {
     width: 870px;
     height: 510px;
     border-radius: 25px;
-    background-color:rgba(255, 0, 0, 0.25);
+    background-color: rgba(255, 0, 0, 0.25);
     margin: 0 auto;
-margin-bottom:221px ;
+    margin-bottom: 221px;
 }
 
-.becom  {
+.becom {
     margin: 0 auto;
     width: 642px;
 }
+
 .develop {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 .becom h5 {
     font-weight: 500;
     font-size: 24px;
     letter-spacing: -0.04em;
-    color:#FF0000 ;
+    color: #FF0000;
     text-align: center;
     padding-top: 52px;
-    margin-bottom:25px ;
+    margin-bottom: 25px;
 }
 
 .becom p {
     font-weight: 500;
     font-size: 24px;
     letter-spacing: -0.04em;
-    color:#4B4B4B ;
+    color: #4B4B4B;
     text-align: center;
     margin-bottom: 76px;
 }
@@ -375,7 +377,7 @@ margin-bottom:221px ;
     font-size: 36px;
     text-align: center;
     letter-spacing: -0.04em;
-    color:#4B4B4B ;
+    color: #4B4B4B;
     margin-bottom: 15px;
 }
 
@@ -391,55 +393,99 @@ margin-bottom:221px ;
     background-color: #FFFCF4;
     text-align: center;
     cursor: pointer;
-
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF4343;
 }
 
 .contact_us h2 {
     font-weight: 700;
     font-size: 72px;
     text-align: center;
-    color:#F7B006 ;
-    margin-bottom:34px ;
+    color: #F7B006;
+    margin-bottom: 34px;
 }
 
 .contact_us h2 span {
-    color:#4E4E4E ;
+    color: #4E4E4E;
 }
 
 .about_you {
     margin: 0 auto;
-    width: 886px;
-    height: 488px;
+}
+
+form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 20.5px;
+    margin-bottom:61px ;
 }
 
 .name_e-mail {
-    width: 410px;
+    width: 49%;
     height: 76px;
     border-radius: 13.5px;
     border: 1px solid #ccc;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     padding: 20px 0px 0px 18px;
     font-weight: 400;
     font-size: 25px;
     color: #6B6B6B;
-
 }
 
 .message {
-    width: 858px;
+    width: 100%;
     height: 272px;
-    background-color:#FFFFFF ;
+    background-color: #FFFFFF;
     border: 1px solid #ccc;
     border-radius: 13.5px;
     padding: 20px 0px 0px 18px;
     font-weight: 400;
     font-size: 25px;
     color: #6B6B6B;
+margin-bottom: 44px;
+}
 
+.last_button {
+    margin: 0 auto;
+}
+
+.last_button .button {
+padding: 15px 55px 15px 55px ;
+}
+
+.basement {
+    width:342px ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.basement p{
+
+    height: 63px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    color:#000000 ;
+}
+
+.basement h6 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #F7B006;
+    margin-bottom: 5px;
+}
+
+.addresss {
+
+}
+
+
+.addresss  {
+    width: %;
 }
 
 /*footer*/
