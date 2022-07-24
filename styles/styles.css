@@ -415,15 +415,18 @@ header {
 }
 
 form {
+    margin: 0 auto;
+    width: 886px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20.5px;
-    margin-bottom:61px ;
+    margin-bottom: 91px;
 }
 
 .name_e-mail {
-    width: 49%;
+
+    width: 48.8%;
     height: 76px;
     border-radius: 13.5px;
     border: 1px solid #ccc;
@@ -444,7 +447,7 @@ form {
     font-weight: 400;
     font-size: 25px;
     color: #6B6B6B;
-margin-bottom: 44px;
+    margin-bottom: 44px;
 }
 
 .last_button {
@@ -452,43 +455,91 @@ margin-bottom: 44px;
 }
 
 .last_button .button {
-padding: 15px 55px 15px 55px ;
+    padding: 15px 55px 15px 55px;
 }
 
-.basement {
-    width:342px ;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
-.basement p{
-
-    height: 63px;
+.contact_our_info {
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.025em;
-    color:#000000 ;
 }
 
-.basement h6 {
-    font-weight: 400;
-    font-size: 15px;
+.contact_our_info h6 {
     color: #F7B006;
-    margin-bottom: 5px;
 }
 
-.addresss {
+.contact_our_info p {
+    color: #000000;
+}
 
+.address {
+    width: 310px;
+    margin-bottom: 30px;
+}
+
+.phone {
+    width: 148px;
+    height: 46px;
 }
 
 
-.addresss  {
-    width: %;
+.email {
+    width: 128px;
+    height: 46px;
 }
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.our_link {
+    display: flex;
+    gap: 50px;
+}
+
+.contact_us_info1 {
+    display: flex;
+    gap: 50px;
+}
+
 
 /*footer*/
 footer {
-    height: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 70px;
+    padding: 0px 20px 0px 20px;
+    background-color: #F7B006;
+}
+
+
+.social {
+    width: 130px;
+    height: 30px;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.rrayonit {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #4E4E4E;
+    padding-top: 25px;
+}
+
+.rights_policy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
